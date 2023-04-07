@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/educational-web/static/css/main.dcb839ab.css",
+    "main.js": "/educational-web/static/js/main.86255544.js",
+    "static/media/fa-solid-900.ttf": "/educational-web/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/courses-image-2.png": "/educational-web/static/media/courses-image-2.5553c6b0c3b327511aa6.png",
+    "static/media/Home-bg.jpg": "/educational-web/static/media/Home-bg.83b8a263ef55742d399d.jpg",
+    "static/media/courses-image-1.jpg": "/educational-web/static/media/courses-image-1.6671754ef93f2c7df40c.jpg",
+    "static/media/Logo-1.jpg": "/educational-web/static/media/Logo-1.5f5ea4acf2aa8a34a5d8.jpg",
+    "static/media/fa-brands-400.ttf": "/educational-web/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/educational-web/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/educational-web/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fa-regular-400.ttf": "/educational-web/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/Logo-2.png": "/educational-web/static/media/Logo-2.74ecc9af6d6f8558f8b3.png",
+    "static/media/courses-image-6.png": "/educational-web/static/media/courses-image-6.8595fd589fb11af06e65.png",
+    "static/media/fa-regular-400.woff2": "/educational-web/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/courses-image-3.webp": "/educational-web/static/media/courses-image-3.7d7fd6565441e585351a.webp",
+    "static/media/location-image-6.jfif": "/educational-web/static/media/location-image-6.6624264317d8124f2bf8.jfif",
+    "static/media/location-image-1.jpg": "/educational-web/static/media/location-image-1.306b38f0b91fd460d933.jpg",
+    "static/media/location-image-3.jfif": "/educational-web/static/media/location-image-3.7ba94f103d261fe6a9c5.jfif",
+    "static/media/fa-v4compatibility.ttf": "/educational-web/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/location-image-5.jfif": "/educational-web/static/media/location-image-5.4df533b97ffb9ef92dce.jfif",
+    "static/media/location-image-4.jfif": "/educational-web/static/media/location-image-4.e4bcc9c2cfe30a0835c5.jfif",
+    "static/media/news-image-1.jfif": "/educational-web/static/media/news-image-1.27daf999e65dad139f27.jfif",
+    "static/media/location-image-2.jfif": "/educational-web/static/media/location-image-2.c290ba3715a19534d141.jfif",
+    "static/media/fa-v4compatibility.woff2": "/educational-web/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/educational-web/index.html",
+    "main.dcb839ab.css.map": "/educational-web/static/css/main.dcb839ab.css.map",
+    "main.86255544.js.map": "/educational-web/static/js/main.86255544.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcb839ab.css",
+    "static/js/main.86255544.js"
+  ]
+}
