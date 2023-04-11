@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/educational-web/static/css/main.dcb839ab.css",
-    "main.js": "/educational-web/static/js/main.86255544.js",
+    "main.js": "/educational-web/static/js/main.7db3dbd3.js",
     "static/media/fa-solid-900.ttf": "/educational-web/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
     "static/media/courses-image-2.png": "/educational-web/static/media/courses-image-2.5553c6b0c3b327511aa6.png",
     "static/media/Home-bg.jpg": "/educational-web/static/media/Home-bg.83b8a263ef55742d399d.jpg",
@@ -26,10 +26,10 @@
     "static/media/fa-v4compatibility.woff2": "/educational-web/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/educational-web/index.html",
     "main.dcb839ab.css.map": "/educational-web/static/css/main.dcb839ab.css.map",
-    "main.86255544.js.map": "/educational-web/static/js/main.86255544.js.map"
+    "main.7db3dbd3.js.map": "/educational-web/static/js/main.7db3dbd3.js.map"
   },
   "entrypoints": [
     "static/css/main.dcb839ab.css",
-    "static/js/main.86255544.js"
+    "static/js/main.7db3dbd3.js"
   ]
 }
