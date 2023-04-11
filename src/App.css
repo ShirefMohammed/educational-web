@@ -1,0 +1,107 @@
+:root{
+  --main-color: #004e9e;
+  --second-color: orange;
+  --text-color: #616161;
+  --bg-color: #efefef75;
+  --card-color: #172238;
+  --box-border-color: #b1b1b140;
+  --box-shadow: 0 0 30px 0 #b1b1b140;
+  --section-padding: 80px;
+  --common-transition: .3s;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-size: 15px;
+  color: var(--text-color);
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+input,
+textarea{
+  outline: none;
+  border: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+      width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+      width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+      width: 1170px;
+      width: 90%;
+  }
+}
+
+.btn{
+  text-transform: capitalize;
+  font-weight: 700;
+  min-width: 120px;
+  max-width: 140px;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: var(--main-color);
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.btn-hover:hover{
+  background-color: var(--second-color);
+}
+
+.section-title{
+  color: var(--main-color);
+  font-size: 50px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 50px;
+}

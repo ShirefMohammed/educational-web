@@ -1,0 +1,247 @@
+.header {
+    height: 100px;
+    width: 100%;
+    color: var(--main-color);
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px #f1f1f1;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    -webkit-transition: var(--common-transition);
+    -moz-transition: var(--common-transition);
+    -ms-transition: var(--common-transition);
+    -o-transition: var(--common-transition);
+    transition: var(--common-transition);
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 1200px) {
+    .header .logo i {
+        display: none;
+    }
+}
+
+.logo i {
+    cursor: pointer;
+    font-size: 25px;
+    color: black;
+    -webkit-transition: var(--common-transition);
+    -moz-transition: var(--common-transition);
+    -ms-transition: var(--common-transition);
+    -o-transition: var(--common-transition);
+    transition: var(--common-transition);
+}
+
+.header .logo i:hover {
+    color: var(--main-color);
+}
+
+.header img {
+    width: 100px;
+}
+
+.header .links {
+    height: 100%;
+    display: flex;
+}
+
+.header .links li {
+    height: 100%;
+    position: relative;
+}
+
+.header .links>li>a {
+    height: 100%;
+    padding: 25px;
+    font-weight: 700;
+    color: var(--main-color);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: var(--common-transition);
+    -moz-transition: var(--common-transition);
+    -ms-transition: var(--common-transition);
+    -o-transition: var(--common-transition);
+    transition: var(--common-transition);
+}
+
+.header .links>li>a.active,
+.header .links>li>a:hover {
+    color: var(--second-color);
+}
+
+.header .links>li>a::before {
+    content: "";
+    background-color: var(--main-color);
+    width: 2px;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: var(--common-transition);
+    -moz-transition: var(--common-transition);
+    -ms-transition: var(--common-transition);
+    -o-transition: var(--common-transition);
+    transition: var(--common-transition);
+}
+
+.header .links>li>a.active::before,
+.header .links>li>a:hover::before {
+    height: 30%;
+}
+
+.header .links a span {
+    width: 7px;
+    height: 2px;
+    margin-top: -5px;
+    background-color: rgba(84, 176, 252, 0.568);
+    -webkit-transition: var(--common-transition);
+    -moz-transition: var(--common-transition);
+    -ms-transition: var(--common-transition);
+    -o-transition: var(--common-transition);
+    transition: var(--common-transition);
+}
+
+.header .links a span:first-of-type {
+    margin-left: 5px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.header .links a span:last-of-type {
+    margin-left: -3px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.header .links>li:hover a>span:first-of-type {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.header .links>li:hover a>span:last-of-type {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+.header .links .section-links {
+    min-width: 280px;
+    padding: 20px;
+    position: absolute;
+    opacity: 0;
+    background-color: var(--second-color);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transform: scale(0) translateY(50px);
+    -moz-transform: scale(0) translateY(50px);
+    -ms-transform: scale(0) translateY(50px);
+    -o-transform: scale(0) translateY(50px);
+    transform: scale(0) translateY(50px);
+    -webkit-transition: var(--common-transition);
+    -moz-transition: var(--common-transition);
+    -ms-transition: var(--common-transition);
+    -o-transition: var(--common-transition);
+    transition: var(--common-transition);
+}
+
+.header .links>li:hover .section-links {
+    opacity: 1;
+    -webkit-transform: scale(1) translateY(0);
+    -moz-transform: scale(1) translateY(0);
+    -ms-transform: scale(1) translateY(0);
+    -o-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+}
+
+.header .links .section-links a {
+    padding: 15px;
+    color: var(--main-color);
+    position: relative;
+}
+
+.header .links .section-links a::before {
+    content: "";
+    background-color: var(--main-color);
+    height: 1px;
+    width: 0;
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+    -webkit-transition: var(--common-transition);
+    -moz-transition: var(--common-transition);
+    -ms-transition: var(--common-transition);
+    -o-transition: var(--common-transition);
+    transition: var(--common-transition);
+}
+
+.header .links .section-links a:hover::before {
+    width: calc(100% - 30px);
+}
+
+.get-touch {
+    padding: 10px 20px;
+    font-weight: 700;
+    color: white;
+    background-color: var(--second-color);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transition: var(--common-transition);
+    -moz-transition: var(--common-transition);
+    -ms-transition: var(--common-transition);
+    -o-transition: var(--common-transition);
+    transition: var(--common-transition);
+}
+
+.get-touch:hover {
+    background-color: var(--main-color);
+}
+
+@media (max-width: 1200px) {
+
+    .header .links,
+    .get-touch,
+    .sponsor {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+    }
+}

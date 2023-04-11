@@ -1,0 +1,68 @@
+.offerings{
+    padding: var(--section-padding) 0;
+}
+
+.offerings .content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 50px;
+}
+
+.offerings .item{
+    padding: 30px;
+    background-color: var(--card-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.offerings .item:hover{
+    background-color: white;
+    color: black;
+    box-shadow: var(--box-shadow);
+}
+
+.offerings .item div:nth-child(1){
+    font-size: 50px;
+    color: var(--second-color);
+}
+.offerings .item div:nth-child(2){
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.offerings .item div:nth-child(3){
+    font-size: 18px;
+}
+
+.offerings .item button{
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+
+.offerings .item:hover span{
+    color: black;
+}
+
+.offerings .container > button{
+    margin-top: 50px;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
